@@ -12,8 +12,27 @@
 
 > OK (1 test, 1 assertion)
 
+## Run PHP CodeSniffer.
+
+### Install
+* Install [PHP_CodeSniffer][5] (recommended to install via Composer and set Windows environment `PATH` to **vendor/bin**).
+* Install [PHPCompatibilityWP][6] (via Composer).
+* Install [WordPress Coding Standard][7] (as standalone but DO NOT follow **Add its path to the PHP_CodeSniffer configuration** step).
+    * Manually edit **vendor/squizlabs/php_codesniffer/CodeSniffer.conf** file to prepend `../../../wpcs,` value.
+
+### Run
+* Run the command `phpcs`.
+* The result should be:
+
+> E 1 / 1 (100%)
+
+And follow with more details.
+
 
 [1]: https://wp-cli.org/#installing
 [2]: https://make.wordpress.org/core/handbook/testing/automated-testing/phpunit/
 [3]: https://make.wordpress.org/cli/handbook/misc/plugin-unit-tests/
 [4]: https://github.com/Rundiz-WP/wp-plugin-unit-tests
+[5]: https://github.com/squizlabs/PHP_CodeSniffer#composer
+[6]: https://github.com/PHPCompatibility/PHPCompatibilityWP#installation-instructions
+[7]: https://github.com/WordPress/WordPress-Coding-Standards#standalone
