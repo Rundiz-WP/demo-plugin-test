@@ -1,5 +1,6 @@
-## Demonstration of WordPress plugin unit test.
+# Demonstration of WordPress plugin unit test.
 
+## Run unit testing.
 ### Install
 * Install [WP-CLI][1]
 * Install [PHPUnit][2]
