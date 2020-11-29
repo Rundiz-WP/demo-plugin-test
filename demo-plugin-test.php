@@ -12,4 +12,20 @@
  * License URI:       https://opensource.org/licenses/MIT
  * Text Domain:       demo-plugin-test
  * Domain Path:       /languages
+ *
+ * Demo plugin for unit testing, code sniffer.
+ *
+ * @package demo-plugin-test
  */
+
+/**
+ * Demo function that will trigger some errors in php code sniffer.
+ */
+function demo_plugin_test_testphpcs() {
+	// deprecated PHP function since 5.3.
+	ereg( '/[a-z]/', 'Abcd' );
+	// deprecated wp function since 4.5.0.
+	add_utility_page( 'page title', 'menu title', 'compatibility', 'menu slug' );
+	// space inside ( ... ) is required for WordPress code style.
+	wp_strip_all_tags('<div>html</div>' );
+}//end demo_plugin_test_testphpcs()
