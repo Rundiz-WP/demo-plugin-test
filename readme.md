@@ -8,10 +8,10 @@
 * Download this plugin and extract in your stand alone folder OR in the installed WordPress **/wp-content/plugins/demo-plugin-test** folder.
 
 ### Run
-* Run the command `phpunit`.
+* Run the command `phpunit` (Recommend PHPUnit 10 and PHP 8.2).
 * The result should be:
 
-> OK (1 test, 1 assertion)
+> OK (1 test, 2 assertions)
 
 ## Run PHP CodeSniffer.
 
