@@ -19,7 +19,7 @@
  */
 
 /**
- * Demo function that will trigger some errors in php code sniffer.
+ * Demo function that will trigger some errors in PHP code sniffer.
  */
 function demo_plugin_test_testphpcs() {
 	// deprecated PHP function since 5.3.
