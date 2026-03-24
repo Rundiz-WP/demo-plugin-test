@@ -43,6 +43,6 @@ And follow with more details.
 [2]: https://make.wordpress.org/core/handbook/testing/automated-testing/phpunit/
 [3]: https://make.wordpress.org/cli/handbook/misc/plugin-unit-tests/
 [4]: https://github.com/Rundiz-WP/wp-plugin-unit-tests
-[5]: https://github.com/squizlabs/PHP_CodeSniffer#composer
+[5]: https://github.com/PHPCSStandards/PHP_CodeSniffer#composer
 [6]: https://github.com/PHPCompatibility/PHPCompatibilityWP#installation-instructions
 [7]: https://github.com/WordPress/WordPress-Coding-Standards#standalone
